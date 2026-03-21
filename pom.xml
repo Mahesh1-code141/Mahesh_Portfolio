@@ -27,7 +27,7 @@
             <scope>provided</scope>
         </dependency>
 
-        <!-- JSTL (fixed) -->
+        <!-- JSTL -->
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>jstl</artifactId>
@@ -37,10 +37,12 @@
     </dependencies>
 
     <build>
-    <finalName>devops-portfolio</finalName>
-</build>
+        <!-- ✅ This matches your Jenkins expectation -->
+        <finalName>devops-portfolio</finalName>
 
-            <!-- ✅ FIXED WAR PLUGIN -->
+        <plugins>
+
+            <!-- WAR Plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>

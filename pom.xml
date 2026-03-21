@@ -37,9 +37,8 @@
     </dependencies>
 
     <build>
-        <finalName>maheshs-portfolio</finalName>
-
-        <plugins>
+    <finalName>devops-portfolio</finalName>
+</build>
 
             <!-- ✅ FIXED WAR PLUGIN -->
             <plugin>
